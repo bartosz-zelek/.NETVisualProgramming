@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\DAO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D633AF-A8A9-4AB0-B4B4-A477C27E69CF}|..\\bartosz-zelek\\.NETVisualProgramming\\VisualProgrammingProject\\UI.csproj|c:\\users\\pc\\source\\repos\\bartosz-zelek\\.netvisualprogramming\\visualprogrammingproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA77913-77EC-4FF5-9464-F4B20E8BDF0C}|..\\Interfaces\\Interfaces\\Interfaces.csproj|c:\\users\\pc\\source\\repos\\interfaces\\interfaces\\idataaccessobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|c:\\users\\pc\\source\\repos\\dao\\dao\\daomock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|solutionrelative:dao\\daomock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA77913-77EC-4FF5-9464-F4B20E8BDF0C}|..\\Interfaces\\Interfaces\\Interfaces.csproj|c:\\users\\pc\\source\\repos\\interfaces\\interfaces\\ibeerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|c:\\users\\pc\\source\\repos\\dao\\dao\\beerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|solutionrelative:dao\\beerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|c:\\users\\pc\\source\\repos\\dao\\dao\\beerproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF38448-6FD2-4BAA-9F7D-1E258F3208FF}|DAO\\DAOMock.csproj|solutionrelative:dao\\beerproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFA77913-77EC-4FF5-9464-F4B20E8BDF0C}|..\\Interfaces\\Interfaces\\Interfaces.csproj|c:\\users\\pc\\source\\repos\\interfaces\\interfaces\\ibeerproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBeerProducer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IBeerProducer.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\Interfaces\\IBeerProducer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IBeerProducer.cs",
+              "RelativeToolTip": "..\\Interfaces\\Interfaces\\IBeerProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:58:23.608Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BeerProducer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\BeerProducer.cs",
+              "RelativeDocumentMoniker": "DAO\\BeerProducer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\BeerProducer.cs",
+              "RelativeToolTip": "DAO\\BeerProducer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:08:10.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BeerProduct.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\BeerProduct.cs",
+              "RelativeDocumentMoniker": "DAO\\BeerProduct.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\BeerProduct.cs",
+              "RelativeToolTip": "DAO\\BeerProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T21:54:28.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBeerProduct.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IBeerProduct.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\Interfaces\\IBeerProduct.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IBeerProduct.cs",
+              "RelativeToolTip": "..\\Interfaces\\Interfaces\\IBeerProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:12:41.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAOMock.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\DAOMock.cs",
+              "RelativeDocumentMoniker": "DAO\\DAOMock.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\DAO\\DAO\\DAOMock.cs",
+              "RelativeToolTip": "DAO\\DAOMock.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:27:19.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\.NETVisualProgramming\\VisualProgrammingProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "..\\bartosz-zelek\\.NETVisualProgramming\\VisualProgrammingProject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\.NETVisualProgramming\\VisualProgrammingProject\\MauiProgram.cs",
+              "RelativeToolTip": "..\\bartosz-zelek\\.NETVisualProgramming\\VisualProgrammingProject\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:07:30.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDataAccessObject.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IDataAccessObject.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\Interfaces\\IDataAccessObject.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Interfaces\\Interfaces\\IDataAccessObject.cs",
+              "RelativeToolTip": "..\\Interfaces\\Interfaces\\IDataAccessObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T22:31:17.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

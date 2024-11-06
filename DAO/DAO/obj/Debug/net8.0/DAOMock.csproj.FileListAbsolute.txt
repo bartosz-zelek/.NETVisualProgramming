@@ -1,0 +1,17 @@
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\DAOMock.deps.json
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\DAOMock.dll
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\DAOMock.pdb
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\Core.dll
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\Interfaces.dll
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\Interfaces.pdb
+C:\Users\pc\source\repos\DAO\DAO\bin\Debug\net8.0\Core.pdb
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.AssemblyInfo.cs
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.csproj.Up2Date
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.dll
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\refint\DAOMock.dll
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\DAOMock.pdb
+C:\Users\pc\source\repos\DAO\DAO\obj\Debug\net8.0\ref\DAOMock.dll
