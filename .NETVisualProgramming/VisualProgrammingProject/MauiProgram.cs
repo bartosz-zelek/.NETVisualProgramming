@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using ZelekWieclaw.VisualProgrammingProject.BL;
+
 
 namespace VisualProgrammingProject
 {
@@ -6,6 +8,10 @@ namespace VisualProgrammingProject
     {
         public static MauiApp CreateMauiApp()
         {
+            var cs = new CatalogService();
+
+            cs.GetAllBeerProducts();
+
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
@@ -16,7 +22,7 @@ namespace VisualProgrammingProject
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
