@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
 using ZelekWieclaw.VisualProgrammingProject.DAOMock;
@@ -9,22 +10,24 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
     public class BeerProducerViewModel : ObservableObject, IQueryAttributable
     {
         private IBeerProducer _producer;
-        private CatalogService _catalogService;
+        private readonly CatalogService _catalogService;
 
-        // public BeerProducerViewModel(CatalogService catalogService)
-        // {
-        //     _producer = new BeerProducer();
-        //     _catalogService = catalogService;
-        // }
         public BeerProducerViewModel()
         {
             _producer = new BeerProducer();
+            _catalogService = new CatalogService();
+            SaveCommand = new AsyncRelayCommand(Save);
+            DeleteCommand = new AsyncRelayCommand(Delete);
         }
 
         public BeerProducerViewModel(IBeerProducer producer)
         {
             _producer = producer;
+            _catalogService = new CatalogService();
+            SaveCommand = new AsyncRelayCommand(Save);
+            DeleteCommand = new AsyncRelayCommand(Delete);
         }
+
 
         public ICommand SaveCommand { get; private set; }
         public ICommand DeleteCommand { get; private set; }
@@ -51,15 +54,16 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         public void Reload()
         {
             _producer = _catalogService.GetProducerById(_producer.Id);
+
             RefreshProperties();
         }
 
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
         {
-            if (query.TryGetValue("load", out object? value))
+            if (query.TryGetValue("load", out object? value) && int.TryParse(value.ToString(), out int id))
             {
-                _producer = _catalogService.GetProducerById(int.Parse(value.ToString()));
+                _producer = _catalogService.GetProducerById(id);
                 RefreshProperties();
             }
         }

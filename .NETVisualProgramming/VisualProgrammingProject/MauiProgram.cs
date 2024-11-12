@@ -20,6 +20,7 @@ namespace VisualProgrammingProject
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+
             // builder.Services.AddSingleton<CatalogService>();
             // builder.Services.AddTransient<BeerProducerViewModel>();
 

@@ -56,11 +56,18 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
                     "The assembly does not contain a class implementing IDataAccessObject.");
             }
 
+            var instanceProperty = type.GetProperty("Instance", BindingFlags.Public | BindingFlags.Static);
 
-            var dao = (IDataAccessObject?)Activator.CreateInstance(type);
+            if (instanceProperty == null)
+            {
+                throw new InvalidOperationException("The class does not contain a static Instance property.");
+            }
+
+            var dao = instanceProperty.GetValue(null) as IDataAccessObject;
+
             if (dao == null)
             {
-                throw new InvalidOperationException("Failed to create an instance of IDataAccessObject.");
+                throw new InvalidOperationException("Failed to get the instance of IDataAccessObject.");
             }
 
             return dao;

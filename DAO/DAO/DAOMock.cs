@@ -4,6 +4,15 @@ using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 public class DAOMock : IDataAccessObject
 {
+    private DAOMock()
+    {
+    }
+
+    private static DAOMock _instance;
+
+    public static DAOMock Instance => _instance ??= new DAOMock();
+
+
     // 4.1.1 Retrieving data
     public IEnumerable<IBeerProducer> GetAllBeerProducers() => _beerProducers;
     public IEnumerable<IBeerProduct> GetAllBeerProducts() => _beerProducts;
