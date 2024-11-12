@@ -3,7 +3,7 @@ using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.DAOMock
 {
-    internal class BeerProduct : IBeerProduct
+    public class BeerProduct : IBeerProduct
     {
         public int Id { get; set; }
         public int ProducerId { get; set; }

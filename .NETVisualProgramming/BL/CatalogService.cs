@@ -17,6 +17,21 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
             return _dao.GetAllBeerProducts();
         }
 
+        public void UpdateBeerProducer(IBeerProducer producer)
+        {
+            _dao.UpdateBeerProducer(producer);
+        }
+
+        public IBeerProducer GetProducerById(int id)
+        {
+            return _dao.GetBeerProducerById(id);
+        }
+
+        public void DeleteBeerProducer(int id)
+        {
+            _dao.DeleteBeerProducer(id);
+        }
+
         private readonly IDataAccessObject _dao;
 
         private IDataAccessObject LoadDao()

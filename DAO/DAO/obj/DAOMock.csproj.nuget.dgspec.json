@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj": {}
+    "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\Core.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj",
         "projectName": "DAOMock",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\DAO\\DAO\\DAOMock.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\DAO\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\DAO\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -118,6 +128,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj",
+        "projectPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Interfaces\\Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Interfaces\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,8 +187,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\pc\\source\\repos\\bartosz-zelek\\Core\\Core.csproj"
+              "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\pc\\Source\\Repos\\bartosz-zelek\\Core\\Core.csproj"
               }
             }
           }
@@ -187,6 +207,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
-using ZelekWieclaw.VisualProgrammingProject.BL;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 
 namespace VisualProgrammingProject
@@ -8,18 +8,20 @@ namespace VisualProgrammingProject
     {
         public static MauiApp CreateMauiApp()
         {
-            var cs = new CatalogService();
-
-            cs.GetAllBeerProducts();
-
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                // Initialize the .NET MAUI Community Toolkit by adding the below line of code
+                .UseMauiCommunityToolkit()
+                // After initializing the .NET MAUI Community Toolkit, optionally add additional fonts
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+
+            // builder.Services.AddSingleton<CatalogService>();
+            // builder.Services.AddTransient<BeerProducerViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();

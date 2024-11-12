@@ -2,11 +2,11 @@
 
 namespace ZelekWieclaw.VisualProgrammingProject.DAOMock
 {
-    internal class BeerProducer : IBeerProducer
+    public class BeerProducer : IBeerProducer
     {
         public int Id { get; set; }
-        public required string Name { get; set; }
-        public required string FoundationYear { get; set; }
-        public required string Country { get; set; }
+        public string Name { get; set; }
+        public string FoundationYear { get; set; }
+        public string Country { get; set; }
     }
 }

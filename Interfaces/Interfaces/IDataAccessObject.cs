@@ -24,5 +24,6 @@ namespace ZelekWieclaw.VisualProgrammingProject.Interfaces
         public IEnumerable<IBeerProducer> SearchBeerProducers(string searchTerm);
         public IEnumerable<IBeerProduct> SearchBeerProducts(string searchTerm);
         public IEnumerable<IBeerProduct> FilterBeerProductsByType(BeerType type);
+        public IBeerProducer GetBeerProducerById(int id);
     }
 }

@@ -56,6 +56,8 @@ public class DAOMock : IDataAccessObject
     public IEnumerable<IBeerProduct> FilterBeerProductsByType(BeerType type) =>
         _beerProducts.Where(p => p.Type == type);
 
+    public IBeerProducer GetBeerProducerById(int id) => _beerProducers.FirstOrDefault(p => p.Id == id);
+
 
     private List<IBeerProducer> _beerProducers =
     [
