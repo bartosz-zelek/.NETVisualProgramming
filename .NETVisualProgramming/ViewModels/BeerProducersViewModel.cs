@@ -16,14 +16,15 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         public BeerProducersViewModel()
         {
             _catalogService = new CatalogService();
-            AllProducers = new ObservableCollection<BeerProducerViewModel>();
+            AllProducers = new ObservableCollection<BeerProducerViewModel>(
+                _catalogService.GetAllBeerProducers().Select(p => new BeerProducerViewModel(p)));
             NewCommand = new AsyncRelayCommand(NewProducerAsync);
             SelectProducerCommand = new AsyncRelayCommand<BeerProducerViewModel>(SelectProducerAsync);
         }
 
         private async Task NewProducerAsync()
         {
-            await Shell.Current.GoToAsync(nameof(UI.ProducerPage));
+            // await Shell.Current.GoToAsync(nameof(UI.ProducerPage));
         }
 
         private async Task SelectProducerAsync(BeerProducerViewModel producer)
@@ -32,7 +33,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             {
                 return;
             }
-            await Shell.Current.GoToAsync($"{nameof(UI.ProducerPage)}?producerId={producer.Id}");
+            // await Shell.Current.GoToAsync($"{nameof(UI.ProducerPage)}?producerId={producer.Id}");
         }
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query) // Change to public
