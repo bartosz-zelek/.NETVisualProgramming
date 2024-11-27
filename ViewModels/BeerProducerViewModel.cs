@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
@@ -8,7 +9,7 @@ using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 {
-    public class BeerProducerViewModel : ObservableObject, IQueryAttributable
+    public class BeerProducerViewModel : ObservableValidator, IQueryAttributable
     {
         private IBeerProducer _producer;
         private readonly CatalogService _catalogService;
@@ -35,6 +36,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
+            ValidateAllProperties();
+
             // Serialize the producer object to JSON
             string producerJson = JsonSerializer.Serialize(_producer);
 
@@ -79,34 +82,26 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             get => _producer.Id;
         }
 
+        [Required(ErrorMessage = "Nazwa jest wymagana")]
         public string Name
         {
             get => _producer.Name;
-            set
-            {
-                _producer.Name = value;
-                OnPropertyChanged();
-            }
+            set => SetProperty(_producer.Name, value, _producer, (p, v) => p.Name = v, true);
         }
 
+        [Required(ErrorMessage = "Rok założenia jest wymagany")]
+        [RegularExpression(@"^\d{4}$", ErrorMessage = "Rok założenia musi być 4-cyfrowym rokiem")]
         public string FoundationYear
         {
             get => _producer.FoundationYear;
-            set
-            {
-                _producer.FoundationYear = value;
-                OnPropertyChanged();
-            }
+            set => SetProperty(_producer.FoundationYear, value, _producer, (p, v) => p.FoundationYear = v, true);
         }
 
+        [Required(ErrorMessage = "Kraj pochodzenia jest wymagany")]
         public string Country
         {
             get => _producer.Country;
-            set
-            {
-                _producer.Country = value;
-                OnPropertyChanged();
-            }
+            set => SetProperty(_producer.Country, value, _producer, (p, v) => p.Country = v, true);
         }
     }
 }

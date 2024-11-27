@@ -8,38 +8,6 @@
         <viewModels:BeerProducerViewModel />
     </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Margin="5">
-        <!-- public string Name -->
-        <!-- { -->
-        <!-- get => _producer.Name; -->
-        <!-- set -->
-        <!-- { -->
-        <!-- _producer.Name = value; -->
-        <!-- OnPropertyChanged(); -->
-        <!-- } -->
-        <!-- } -->
-        <!-- -->
-        <!-- public string FoundationYear -->
-        <!-- { -->
-        <!-- get => _producer.FoundationYear; -->
-        <!-- set -->
-        <!-- { -->
-        <!-- _producer.FoundationYear = value; -->
-        <!-- OnPropertyChanged(); -->
-        <!-- } -->
-        <!-- } -->
-        <!-- -->
-        <!-- public string Country -->
-        <!-- { -->
-        <!-- get => _producer.Country; -->
-        <!-- set -->
-        <!-- { -->
-        <!-- _producer.Country = value; -->
-        <!-- OnPropertyChanged(); -->
-        <!-- } -->
-        <!-- } -->
-
-        <!-- Create form with such fields -->
-
         <Entry Text="{Binding Name}" Placeholder="Nazwa" />
         <Entry Text="{Binding FoundationYear}"  Placeholder="Rok założenia"></Entry>
         <Entry Text="{Binding Country}"  Placeholder="Kraj pochodzenia"></Entry>

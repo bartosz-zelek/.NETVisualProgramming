@@ -53,8 +53,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 }
                 else
                 {
-                    AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
                     _catalogService.AddBeerProducer(producer_state);
+                    AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
                 }
             }
             else if (query.TryGetValue("deleted", out var deletedId))

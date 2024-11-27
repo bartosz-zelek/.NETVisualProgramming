@@ -7,11 +7,16 @@ public class DAOMock : IDataAccessObject
 {
     private DAOMock()
     {
+        _nextProducerId = _beerProducers.Any() ? _beerProducers.Max(p => p.Id) + 1 : 1;
+        _nextProductId = _beerProducts.Any() ? _beerProducts.Max(p => p.Id) + 1 : 1;
     }
 
     private static DAOMock _instance;
 
     public static DAOMock Instance => _instance ??= new DAOMock();
+
+    private int _nextProducerId;
+    private int _nextProductId;
 
 
     // 4.1.1 Retrieving data
@@ -19,8 +24,17 @@ public class DAOMock : IDataAccessObject
     public IEnumerable<IBeerProduct> GetAllBeerProducts() => _beerProducts;
 
     // 4.1.2 Adding Products/Producers
-    public void AddBeerProducer(IBeerProducer producer) => _beerProducers.Add(producer);
-    public void AddBeerProduct(IBeerProduct product) => _beerProducts.Add(product);
+    public void AddBeerProducer(IBeerProducer producer)
+    {
+        producer.Id = _nextProducerId++;
+        _beerProducers.Add(producer);
+    }
+
+    public void AddBeerProduct(IBeerProduct product)
+    {
+        product.Id = _nextProductId++;
+        _beerProducts.Add(product);
+    }
 
     // 4.1.3 Modifying data
     public void UpdateBeerProducer(IBeerProducer producer)
