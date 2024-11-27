@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|c:\\users\\pc\\documents\\zelekwieclaw.visualprogrammingproject.ui\\zelekwieclaw.visualprogrammingproject.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|solutionrelative:zelekwieclaw.visualprogrammingproject.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|c:\\users\\pc\\documents\\zelekwieclaw.visualprogrammingproject.ui\\zelekwieclaw.visualprogrammingproject.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|solutionrelative:zelekwieclaw.visualprogrammingproject.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|c:\\users\\pc\\documents\\zelekwieclaw.visualprogrammingproject.ui\\zelekwieclaw.visualprogrammingproject.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|solutionrelative:zelekwieclaw.visualprogrammingproject.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|c:\\users\\pc\\documents\\zelekwieclaw.visualprogrammingproject.ui\\zelekwieclaw.visualprogrammingproject.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|solutionrelative:zelekwieclaw.visualprogrammingproject.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|c:\\users\\pc\\documents\\zelekwieclaw.visualprogrammingproject.ui\\zelekwieclaw.visualprogrammingproject.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067945F4-62D5-473D-AB4A-D8D7367EEB49}|ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj|solutionrelative:zelekwieclaw.visualprogrammingproject.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml",
+              "RelativeDocumentMoniker": "ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml",
+              "RelativeToolTip": "ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T00:04:54.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml.cs",
+              "RelativeToolTip": "ZelekWieclaw.VisualProgrammingProject.UI\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:02:18.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml.cs",
+              "RelativeToolTip": "ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:02:06.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml",
+              "RelativeToolTip": "ZelekWieclaw.VisualProgrammingProject.UI\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T00:00:44.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ZelekWieclaw.VisualProgrammingProject.UI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\MauiProgram.cs",
+              "RelativeToolTip": "ZelekWieclaw.VisualProgrammingProject.UI\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:58:38.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\BL.deps.json
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\BL.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\BL.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\Core.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\Interfaces.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\Interfaces.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\bin\Debug\net9.0\Core.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.AssemblyInfo.cs
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.csproj.Up2Date
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\refint\BL.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\BL.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\BL\obj\Debug\net9.0\ref\BL.dll

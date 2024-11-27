@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "MwSOZN4SP6g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.controls\\8.0.71\\microsoft.maui.controls.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.71\\microsoft.maui.controls.build.tasks.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.71\\microsoft.maui.controls.core.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.71\\microsoft.maui.controls.xaml.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.core\\8.0.71\\microsoft.maui.core.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.essentials\\8.0.71\\microsoft.maui.essentials.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.graphics\\8.0.71\\microsoft.maui.graphics.8.0.71.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.71\\microsoft.maui.resizetizer.8.0.71.nupkg.sha512"
+  ],
+  "logs": []
+}
