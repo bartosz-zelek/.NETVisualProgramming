@@ -8,6 +8,7 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\De
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.AssemblyInfoInputs.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.AssemblyInfo.cs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.sourcelink.json
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.csproj.Up2Date
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\Interfaces.dll
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\Interfaces\obj\Debug\net9.0\refint\Interfaces.dll

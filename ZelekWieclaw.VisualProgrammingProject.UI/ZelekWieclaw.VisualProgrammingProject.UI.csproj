@@ -67,18 +67,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\ViewModels\ViewModels.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="AllBeerProducersPage.xaml.cs">
-	    <DependentUpon>AllBeerProducersPage.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="AllBeerProducersPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+	  <ProjectReference Include="..\Views\Views.csproj" />
 	</ItemGroup>
 
 </Project>

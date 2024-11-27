@@ -3,14 +3,14 @@
     x:Class="ZelekWieclaw.VisualProgrammingProject.UI.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:ZelekWieclaw.VisualProgrammingProject.UI"
+    xmlns:views="clr-namespace:ZelekWieclaw.VisualProgrammingProject.Views;assembly=Views"
     Shell.FlyoutBehavior="Disabled"
     Title="ZelekWieclaw.VisualProgrammingProject.UI">
 
 
     <ShellContent
         Title="Notes"
-        ContentTemplate="{DataTemplate local:AllBeerProducersPage}"
+        ContentTemplate="{DataTemplate views:AllBeerProducersPage}"
     ></ShellContent>
 
 </Shell>

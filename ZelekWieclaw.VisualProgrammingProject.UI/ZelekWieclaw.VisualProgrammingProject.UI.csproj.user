@@ -6,11 +6,6 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AllBeerProducersPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-  </ItemGroup>
-  <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>

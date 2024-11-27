@@ -12,6 +12,11 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
             _dao = LoadDao();
         }
 
+        public void AddBeerProducer(IBeerProducer producer)
+        {
+            _dao.AddBeerProducer(producer);
+        }
+
         public IEnumerable<IBeerProduct> GetAllBeerProducts()
         {
             return _dao.GetAllBeerProducts();

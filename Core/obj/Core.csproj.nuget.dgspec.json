@@ -58,6 +58,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.3.2, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

@@ -1,7 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
+using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
+using ZelekWieclaw.VisualProgrammingProject.DAOMock;
+
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 {
@@ -24,7 +27,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task NewProducerAsync()
         {
-            // await Shell.Current.GoToAsync(nameof(UI.ProducerPage));
+            await Shell.Current.GoToAsync("BeerProducerPage");
         }
 
         private async Task SelectProducerAsync(BeerProducerViewModel producer)
@@ -38,17 +41,20 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query) // Change to public
         {
-            if (query.TryGetValue("saved", out var savedId))
+            if (query.TryGetValue("saved", out var _producer_state))
             {
-                var id = int.Parse((string)savedId);
-                var producer = AllProducers.FirstOrDefault(p => p.Id == id);
+                string producerJson = Uri.UnescapeDataString(_producer_state.ToString());
+                var producer_state = JsonSerializer.Deserialize<BeerProducer>(producerJson);
+                var producer = AllProducers.FirstOrDefault(p => p.Id == producer_state.Id);
                 if (producer != null)
                 {
                     producer.Reload();
+                    _catalogService.UpdateBeerProducer(producer_state);
                 }
                 else
                 {
-                    AllProducers.Insert(0, new BeerProducerViewModel(_catalogService.GetProducerById(id)));
+                    AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
+                    _catalogService.AddBeerProducer(producer_state);
                 }
             }
             else if (query.TryGetValue("deleted", out var deletedId))

@@ -151,6 +151,7 @@ public class MonoPackageManager_Resources {
 		"DAO.dll",
 		"Interfaces.dll",
 		"ViewModels.dll",
+		"Views.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 		"CommunityToolkit.Maui.dll",
 		"CommunityToolkit.Maui.Core.dll",
@@ -300,6 +301,7 @@ public class MonoPackageManager_Resources {
 		"DAO.dll",
 		"Interfaces.dll",
 		"ViewModels.dll",
+		"Views.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{

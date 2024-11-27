@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:ZelekWieclaw.VisualProgrammingProject.ViewModels;assembly=ViewModels"
+             x:Class="ZelekWieclaw.VisualProgrammingProject.Views.BeerProducerPage"
+             Title="Note">
+    <ContentPage.BindingContext>
+        <viewModels:BeerProducerViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Spacing="10" Margin="5">
+        <!-- public string Name -->
+        <!-- { -->
+        <!-- get => _producer.Name; -->
+        <!-- set -->
+        <!-- { -->
+        <!-- _producer.Name = value; -->
+        <!-- OnPropertyChanged(); -->
+        <!-- } -->
+        <!-- } -->
+        <!-- -->
+        <!-- public string FoundationYear -->
+        <!-- { -->
+        <!-- get => _producer.FoundationYear; -->
+        <!-- set -->
+        <!-- { -->
+        <!-- _producer.FoundationYear = value; -->
+        <!-- OnPropertyChanged(); -->
+        <!-- } -->
+        <!-- } -->
+        <!-- -->
+        <!-- public string Country -->
+        <!-- { -->
+        <!-- get => _producer.Country; -->
+        <!-- set -->
+        <!-- { -->
+        <!-- _producer.Country = value; -->
+        <!-- OnPropertyChanged(); -->
+        <!-- } -->
+        <!-- } -->
+
+        <!-- Create form with such fields -->
+
+        <Entry Text="{Binding Name}" Placeholder="Nazwa" />
+        <Entry Text="{Binding FoundationYear}"  Placeholder="Rok założenia"></Entry>
+        <Entry Text="{Binding Country}"  Placeholder="Kraj pochodzenia"></Entry>
+
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
+            <Button Text="Save"
+                    Command="{Binding SaveCommand}"/>
+
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    Command="{Binding DeleteCommand}"/>
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

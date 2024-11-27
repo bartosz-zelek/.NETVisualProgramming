@@ -13,6 +13,7 @@
           "Microsoft.Extensions.Logging.Debug": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0",
           "ViewModels": "1.0.0",
+          "Views": "1.0.0",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2792.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.54"
         },
@@ -490,7 +491,8 @@
         "dependencies": {
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "Interfaces": "1.0.0"
+          "Interfaces": "1.0.0",
+          "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
           "BL.dll": {
@@ -502,7 +504,8 @@
       "Core/1.0.0": {
         "dependencies": {
           "CommunityToolkit.Maui": "9.1.1",
-          "CommunityToolkit.Mvvm": "8.3.2"
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
           "Core.dll": {
@@ -516,7 +519,8 @@
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
           "Core": "1.0.0",
-          "Interfaces": "1.0.0"
+          "Interfaces": "1.0.0",
+          "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
           "DAO.dll": {
@@ -529,7 +533,8 @@
         "dependencies": {
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
           "Interfaces.dll": {
@@ -544,10 +549,25 @@
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
           "DAO": "1.0.0",
-          "Interfaces": "1.0.0"
+          "Interfaces": "1.0.0",
+          "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
           "ViewModels.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Views/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Maui": "9.1.1",
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "Microsoft.Maui.Controls": "9.0.0",
+          "ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "Views.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -784,6 +804,11 @@
       "sha512": ""
     },
     "ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Views/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
 using ZelekWieclaw.VisualProgrammingProject.DAOMock;
@@ -14,7 +15,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         public BeerProducerViewModel()
         {
-            _producer = new BeerProducer() as IBeerProducer;
+            _producer = new BeerProducer();
             _catalogService = new CatalogService();
             SaveCommand = new AsyncRelayCommand(Save);
             DeleteCommand = new AsyncRelayCommand(Delete);
@@ -34,8 +35,13 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
-            _catalogService.UpdateBeerProducer(_producer);
-            await Shell.Current.GoToAsync($"..?saved={_producer.Id}");
+            // Serialize the producer object to JSON
+            string producerJson = JsonSerializer.Serialize(_producer);
+
+            // Encode the serialized string
+            string encodedProducer = Uri.EscapeDataString(producerJson);
+
+            await Shell.Current.GoToAsync($"..?saved={encodedProducer}");
         }
 
         private async Task Delete()
