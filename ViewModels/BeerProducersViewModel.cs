@@ -32,6 +32,11 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task SelectProducerAsync(BeerProducerViewModel producer)
         {
+            if (producer == null)
+            {
+                return;
+            }
+
             await Shell.Current.GoToAsync($"BeerProducerPage?load={producer.Id}");
         }
 
