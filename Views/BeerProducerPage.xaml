@@ -5,7 +5,7 @@
              xmlns:viewModels="clr-namespace:ZelekWieclaw.VisualProgrammingProject.ViewModels;assembly=ViewModels"
              xmlns:global="clr-namespace:ZelekWieclaw.VisualProgrammingProject.Converters"
              x:Class="ZelekWieclaw.VisualProgrammingProject.Views.BeerProducerPage"
-             Title="Note"
+             Title="Beer Producer Form"
              x:Name="Page"
              x:DataType="viewModels:BeerProducerViewModel">
     <ContentPage.BindingContext>

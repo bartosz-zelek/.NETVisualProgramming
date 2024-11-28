@@ -32,11 +32,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task SelectProducerAsync(BeerProducerViewModel producer)
         {
-            if (producer == null)
-            {
-                return;
-            }
-            // await Shell.Current.GoToAsync($"{nameof(UI.ProducerPage)}?producerId={producer.Id}");
+            await Shell.Current.GoToAsync($"BeerProducerPage?load={producer.Id}");
         }
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query) // Change to public
