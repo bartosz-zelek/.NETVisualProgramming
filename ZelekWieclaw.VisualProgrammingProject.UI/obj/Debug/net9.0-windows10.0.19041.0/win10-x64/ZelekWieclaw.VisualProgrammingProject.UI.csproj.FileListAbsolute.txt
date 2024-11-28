@@ -1,3 +1,4 @@
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
@@ -384,7 +385,6 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DAO.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Interfaces.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\ZelekWieclaw.VisualProgrammingProject.UI.csproj.AssemblyReference.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.inputs

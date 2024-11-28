@@ -1,3 +1,6 @@
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ZelekWieclaw.VisualProgrammingProject.UI.runtimeconfig.json
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ZelekWieclaw.VisualProgrammingProject.UI.dll
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ZelekWieclaw.VisualProgrammingProject.UI.pdb
@@ -242,11 +245,8 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmono-component-marshal-ilgen-stub-static.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot-debug.a
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\BL.dll

@@ -1,6 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
@@ -9,7 +8,7 @@ using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 {
-    public class BeerProducerViewModel : ObservableValidator, IQueryAttributable
+    public class BeerProducerViewModel : ObservableObject, IQueryAttributable
     {
         private IBeerProducer _producer;
         private readonly CatalogService _catalogService;
@@ -36,12 +35,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
-            // Serialize the producer object to JSON
             string producerJson = JsonSerializer.Serialize(_producer);
-
-            // Encode the serialized string
             string encodedProducer = Uri.EscapeDataString(producerJson);
-
             await Shell.Current.GoToAsync($"..?saved={encodedProducer}");
         }
 
@@ -74,33 +69,39 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             }
         }
 
-        public String NameError => GetErrors(nameof(Name))?.FirstOrDefault()?.ErrorMessage;
-
         public int Id
         {
             get => _producer.Id;
         }
 
-        [Required(ErrorMessage = "Nazwa jest wymagana")]
         public string Name
         {
             get => _producer.Name;
-            set => SetProperty(_producer.Name, value, _producer, (p, v) => p.Name = v, true);
+            set
+            {
+                _producer.Name = value;
+                OnPropertyChanged();
+            }
         }
 
-        [Required(ErrorMessage = "Rok założenia jest wymagany")]
-        [RegularExpression(@"^\d{4}$", ErrorMessage = "Rok założenia musi być 4-cyfrowym rokiem")]
         public string FoundationYear
         {
             get => _producer.FoundationYear;
-            set => SetProperty(_producer.FoundationYear, value, _producer, (p, v) => p.FoundationYear = v, true);
+            set
+            {
+                _producer.FoundationYear = value;
+                OnPropertyChanged();
+            }
         }
 
-        [Required(ErrorMessage = "Kraj pochodzenia jest wymagany")]
         public string Country
         {
             get => _producer.Country;
-            set => SetProperty(_producer.Country, value, _producer, (p, v) => p.Country = v, true);
+            set
+            {
+                _producer.Country = value;
+                OnPropertyChanged();
+            }
         }
     }
 }
