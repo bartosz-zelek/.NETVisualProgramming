@@ -36,8 +36,6 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
-            ValidateAllProperties();
-
             // Serialize the producer object to JSON
             string producerJson = JsonSerializer.Serialize(_producer);
 
@@ -63,7 +61,6 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         public void Reload()
         {
             _producer = _catalogService.GetProducerById(_producer.Id);
-
             RefreshProperties();
         }
 
@@ -76,6 +73,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 RefreshProperties();
             }
         }
+
+        public String NameError => GetErrors(nameof(Name))?.FirstOrDefault()?.ErrorMessage;
 
         public int Id
         {

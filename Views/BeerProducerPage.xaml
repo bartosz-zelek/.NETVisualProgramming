@@ -3,12 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:ZelekWieclaw.VisualProgrammingProject.ViewModels;assembly=ViewModels"
              x:Class="ZelekWieclaw.VisualProgrammingProject.Views.BeerProducerPage"
-             Title="Note">
+             Title="Note"
+             x:DataType="viewModels:BeerProducerViewModel">
     <ContentPage.BindingContext>
         <viewModels:BeerProducerViewModel />
     </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Margin="5">
         <Entry Text="{Binding Name}" Placeholder="Nazwa" />
+        <!-- show error -->
+
+        <Label Text="{Binding NameError}" TextColor="Red" IsVisible="{Binding HasErrors, Mode=OneWay}" />
+
         <Entry Text="{Binding FoundationYear}"  Placeholder="Rok założenia"></Entry>
         <Entry Text="{Binding Country}"  Placeholder="Kraj pochodzenia"></Entry>
 
