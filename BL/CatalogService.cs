@@ -46,7 +46,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
 
         private IDataAccessObject LoadDao()
         {
-            var jsonFilePath = "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\jsconfig1.json";
+            var jsonFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "BL",
+                "jsconfig1.json");
             var json = File.ReadAllText(jsonFilePath);
             var jsonNode = JsonNode.Parse(json);
             var configuration = jsonNode?["DAOpath"];

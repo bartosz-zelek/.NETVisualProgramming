@@ -30210,24 +30210,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Users\\barto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
       "projectName": "ZelekWieclaw.VisualProgrammingProject.UI",
-      "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
+      "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -30246,44 +30246,44 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-ios18.1": {
           "targetAlias": "net9.0-ios",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-maccatalyst18.1": {
           "targetAlias": "net9.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         }
@@ -30296,7 +30296,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -30342,7 +30342,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       },
       "net9.0-ios18.1": {
         "targetAlias": "net9.0-ios",
@@ -30385,7 +30385,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       },
       "net9.0-maccatalyst18.1": {
         "targetAlias": "net9.0-maccatalyst",
@@ -30429,7 +30429,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       },
       "net9.0-windows10.0.19041": {
         "targetAlias": "net9.0-windows10.0.19041.0",
@@ -30472,7 +30472,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
