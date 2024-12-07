@@ -19,6 +19,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             _catalogService = new CatalogService();
             SaveCommand = new AsyncRelayCommand(Save);
             DeleteCommand = new AsyncRelayCommand(Delete);
+            NavigateToBeersCommand = new AsyncRelayCommand(NavigateToBeers);
         }
 
         public BeerProducerViewModel(IBeerProducer producer)
@@ -32,6 +33,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         public ICommand SaveCommand { get; private set; }
         public ICommand DeleteCommand { get; private set; }
+        public ICommand NavigateToBeersCommand { get; private set; }
 
         private async Task Save()
         {
@@ -44,6 +46,12 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         {
             _catalogService.DeleteBeerProducer(_producer.Id);
             await Shell.Current.GoToAsync($"..?deleted={_producer.Id}");
+        }
+
+        private async Task NavigateToBeers()
+        {
+            await Shell.Current.GoToAsync($"..?producerId={_producer.Id}");
+            // await Shell.Current.GoToAsync($"beers?producerId={_producer.Id}");
         }
 
         private void RefreshProperties()

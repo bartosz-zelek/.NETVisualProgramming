@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZelekWieclaw.VisualProgrammingProject.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d259f133163a86a474d0c6d520479785cc1f948f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2eb3209516b7289ea10f659ebd34bb28152f0913")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZelekWieclaw.VisualProgrammingProject.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZelekWieclaw.VisualProgrammingProject.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

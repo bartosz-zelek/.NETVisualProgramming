@@ -16,6 +16,11 @@
         <global:AllTrueMultiConverter x:Key="AllTrueConverter" />
     </ContentPage.Resources>
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Beers" 
+                     Command="{Binding NavigateToBeersCommand}" />
+    </ContentPage.ToolbarItems>
+
 
     <VerticalStackLayout Spacing="10" Margin="5">
         <Entry Text="{Binding Name}" Placeholder="Nazwa" >
