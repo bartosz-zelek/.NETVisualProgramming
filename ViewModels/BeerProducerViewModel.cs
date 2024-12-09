@@ -50,7 +50,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task NavigateToBeers()
         {
-            await Shell.Current.GoToAsync($"..?producerId={_producer.Id}");
+            await Shell.Current.GoToAsync($"BeerProductsPage?producerId={_producer.Id}");
             // await Shell.Current.GoToAsync($"beers?producerId={_producer.Id}");
         }
 

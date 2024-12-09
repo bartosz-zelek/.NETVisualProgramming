@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {}
+    "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+    "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,20 +84,20 @@
         }
       }
     },
-    "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,8 +113,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
+              "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
               }
             }
           }

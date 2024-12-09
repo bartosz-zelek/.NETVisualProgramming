@@ -42,12 +42,24 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
             _dao.DeleteBeerProducer(id);
         }
 
+        public IEnumerable<IBeerProduct> GetBeerProducts(IBeerProducer producer)
+        {
+            return _dao.GetAllBeerProducts().Where(p => p.ProducerId == producer.Id);
+        }
+
+        public IBeerProduct GetBeerProductById(int id)
+        {
+            return _dao.GetAllBeerProducts().FirstOrDefault(p => p.Id == id);
+        }
+
         private readonly IDataAccessObject _dao;
 
         private IDataAccessObject LoadDao()
         {
-            var jsonFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "BL",
-                "jsconfig1.json");
+            var jsonFilePath =
+                Path.Combine(
+                    Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName,
+                    "..", "BL", "jsconfig1.json");
             var json = File.ReadAllText(jsonFilePath);
             var jsonNode = JsonNode.Parse(json);
             var configuration = jsonNode?["DAOpath"];
