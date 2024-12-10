@@ -4,11 +4,19 @@
              x:Class="ZelekWieclaw.VisualProgrammingProject.Views.AllBeerProducersPage"
              xmlns:viewModels="clr-namespace:ZelekWieclaw.VisualProgrammingProject.ViewModels;assembly=ViewModels"
              Title="All Beer Producers">
+
     <ContentPage.BindingContext>
         <viewModels:BeerProducersViewModel />
     </ContentPage.BindingContext>
 
     <StackLayout>
+        <SearchBar
+                x:Name="searchBar"
+                Placeholder="Search producers..."
+                SearchCommand="{Binding PerformSearchCommand}"
+                SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"
+            ></SearchBar>
+
         <CollectionView ItemsSource="{Binding AllProducers}"
                         x:Name="beerProducersCollection"
                         Margin="20"
@@ -30,6 +38,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" />
     </ContentPage.ToolbarItems>
+
 
 
 </ContentPage>

@@ -9,6 +9,12 @@
     </ContentPage.BindingContext>
 
     <StackLayout>
+        <SearchBar
+            x:Name="searchBar"
+            Placeholder="Search producers..."
+            SearchCommand="{Binding PerformSearchCommand}"
+            SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"
+        ></SearchBar>
         <CollectionView ItemsSource="{Binding BeerProducts}"
                         x:Name="BeerProductsCollection"
                         Margin="20"
@@ -16,6 +22,7 @@
                         SelectionChangedCommand="{Binding SelectProductCommand}"
                         SelectionChangedCommandParameter="{Binding Source={RelativeSource Self}, Path=SelectedItem}"
         >
+
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout>

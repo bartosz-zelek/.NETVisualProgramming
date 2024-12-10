@@ -21,10 +21,13 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             BeerProducts = new ObservableCollection<BeerProductViewModel>();
             SelectProductCommand = new AsyncRelayCommand<BeerProductViewModel>(SelectProductAsync);
             NewCommand = new AsyncRelayCommand(NewAsync);
+            PerformSearchCommand = new AsyncRelayCommand<string>(PerformSearchTask);
         }
 
         public ICommand SelectProductCommand { get; }
         public ICommand NewCommand { get; }
+
+        public ICommand PerformSearchCommand { get; }
 
         private async Task SelectProductAsync(BeerProductViewModel product)
         {
@@ -40,6 +43,18 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         {
             await Shell.Current.GoToAsync("BeerProductPage");
         }
+
+        private async Task PerformSearchTask(string query)
+        {
+            BeerProducts.Clear();
+            var products = _catalogService.GetBeerProducts(_producer)
+                .Where(p => p.Name.IndexOf(query, StringComparison.OrdinalIgnoreCase) >= 0);
+            foreach (var product in products)
+            {
+                BeerProducts.Add(new BeerProductViewModel(product));
+            }
+        }
+
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
         {

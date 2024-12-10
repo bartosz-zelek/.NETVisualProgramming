@@ -13,6 +13,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
         public ObservableCollection<BeerProducerViewModel> AllProducers { get; }
         public ICommand NewCommand { get; }
         public ICommand SelectProducerCommand { get; }
+        public ICommand PerformSearchCommand { get; }
 
         private CatalogService _catalogService;
 
@@ -23,6 +24,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 _catalogService.GetAllBeerProducers().Select(p => new BeerProducerViewModel(p)));
             NewCommand = new AsyncRelayCommand(NewProducerAsync);
             SelectProducerCommand = new AsyncRelayCommand<BeerProducerViewModel>(SelectProducerAsync);
+            PerformSearchCommand = new AsyncRelayCommand<string>(PerformSearchTask);
         }
 
         private async Task NewProducerAsync()
@@ -38,6 +40,17 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             }
 
             await Shell.Current.GoToAsync($"BeerProducerPage?load={producer.Id}");
+        }
+
+        private async Task PerformSearchTask(string query)
+        {
+            AllProducers.Clear();
+            var producers = _catalogService.GetAllBeerProducers()
+                .Where(p => p.Name.IndexOf(query, StringComparison.OrdinalIgnoreCase) >= 0);
+            foreach (var producer in producers)
+            {
+                AllProducers.Add(new BeerProducerViewModel(producer));
+            }
         }
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
