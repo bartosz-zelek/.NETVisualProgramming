@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="BeerProductPage.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>BeerProductPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="BeerProductsPage.xaml.cs">
       <SubType>Code</SubType>
       <DependentUpon>BeerProductsPage.xaml</DependentUpon>
@@ -31,6 +35,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <MauiXaml Update="BeerProductPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
     <MauiXaml Update="BeerProductsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>

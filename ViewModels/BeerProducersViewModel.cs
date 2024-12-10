@@ -40,7 +40,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             await Shell.Current.GoToAsync($"BeerProducerPage?load={producer.Id}");
         }
 
-        void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query) // Change to public
+        void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
         {
             if (query.TryGetValue("saved", out var _producer_state))
             {
@@ -63,7 +63,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 var producer = AllProducers.FirstOrDefault(p => p.Id == int.Parse((string)deletedId));
                 if (producer != null)
                 {
-                    // _catalogService.DeleteBeerProducer(producer.Id);
+                    _catalogService.DeleteBeerProducer(producer.Id);
                     AllProducers.Remove(producer);
                 }
             }

@@ -17,6 +17,11 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
             _dao.AddBeerProducer(producer);
         }
 
+        public void AddBeerProduct(IBeerProduct product)
+        {
+            _dao.AddBeerProduct(product);
+        }
+
         public IEnumerable<IBeerProduct> GetAllBeerProducts()
         {
             return _dao.GetAllBeerProducts();
@@ -32,6 +37,11 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
             _dao.UpdateBeerProducer(producer);
         }
 
+        public void UpdateBeerProduct(IBeerProduct product)
+        {
+            _dao.UpdateBeerProduct(product);
+        }
+
         public IBeerProducer GetProducerById(int id)
         {
             return _dao.GetBeerProducerById(id);
@@ -40,6 +50,11 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
         public void DeleteBeerProducer(int id)
         {
             _dao.DeleteBeerProducer(id);
+        }
+
+        public void DeleteBeerProduct(int id)
+        {
+            _dao.DeleteBeerProduct(id);
         }
 
         public IEnumerable<IBeerProduct> GetBeerProducts(IBeerProducer producer)

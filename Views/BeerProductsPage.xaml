@@ -31,9 +31,9 @@
         </CollectionView>
     </StackLayout>
 
-    <!-- <ContentPage.ToolbarItems> -->
-    <!--     <ToolbarItem Text="Add" Command="{Binding NewCommand}" /> -->
-    <!-- </ContentPage.ToolbarItems> -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding NewCommand}" />
+    </ContentPage.ToolbarItems>
 
 
 </ContentPage>

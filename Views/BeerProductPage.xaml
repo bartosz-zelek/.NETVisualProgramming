@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:ZelekWieclaw.VisualProgrammingProject.ViewModels;assembly=ViewModels"
+             xmlns:global="clr-namespace:ZelekWieclaw.VisualProgrammingProject.Converters"
+             x:Class="ZelekWieclaw.VisualProgrammingProject.Views.BeerProductPage"
+             Title="Beer Product Form"
+             x:Name="Page"
+             x:DataType="viewModels:BeerProductViewModel">
+    <ContentPage.BindingContext>
+        <viewModels:BeerProductViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <global:AllTrueMultiConverter x:Key="AllTrueConverter" />
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Spacing="10" Margin="5">
+        <Entry Text="{Binding Name}" Placeholder="Name" >
+            <Entry.Behaviors>
+                <mct:TextValidationBehavior
+                    x:Name="NameValidator"
+                    Flags="ValidateOnValueChanged"
+                    MinimumLength="1"
+                    MaximumLength="10"
+                    />
+            </Entry.Behaviors>
+        </Entry>
+        <Label Text="Name must be between 1 and 10 characters."
+               TextColor="Red"
+               IsVisible="{Binding Source={x:Reference NameValidator}, Path=IsNotValid}" />
+
+        <Picker
+            Title="Type"
+            ItemsSource="{Binding BeerTypes}"
+            SelectedItem="{Binding Type}"
+            ItemDisplayBinding="{Binding .}" />
+
+        <Label
+            Text="ABV"
+        ></Label>
+        <Entry
+                Text="{Binding Abv}"
+            >
+            <Entry.Behaviors>
+                <mct:NumericValidationBehavior
+                    x:Name="AbvValidator"
+                    Flags="ValidateOnValueChanged"
+                    MinimumValue="0"
+                    MaximumValue="100"
+                    MaximumDecimalPlaces="1"
+                />
+                </Entry.Behaviors>
+        </Entry>
+        <Label
+                Text="ABV must be between 0 and 100"
+                TextColor="Red"
+                IsVisible="{Binding Source={x:Reference AbvValidator}, Path=IsNotValid}"
+            ></Label>
+
+        <Label
+            Text="IBU"
+        ></Label>
+        <Entry
+                Text="{Binding Ibu}"
+            >
+            <Entry.Behaviors>
+                <mct:NumericValidationBehavior
+                     x:Name="IbuValidator"
+                     Flags="ValidateOnValueChanged"
+                     MinimumValue="0"
+                     MaximumValue="100"
+                     MaximumDecimalPlaces="0"
+                >
+                </mct:NumericValidationBehavior>
+            </Entry.Behaviors>
+        </Entry>
+        <Label
+                Text="IBU must be between 0 and 100"
+                TextColor="Red"
+                IsVisible="{Binding Source={x:Reference IbuValidator}, Path=IsNotValid}"
+            ></Label>
+
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
+            <Button Text="Save"
+                    Command="{Binding SaveCommand}">
+                <Button.IsEnabled>
+                    <MultiBinding Converter="{StaticResource AllTrueConverter}">
+                        <Binding Source="{x:Reference NameValidator}" Path="IsValid" />
+                        <Binding Source="{x:Reference AbvValidator}" Path="IsValid" />
+                        <Binding Source="{x:Reference IbuValidator}" Path="IsValid" />
+                    </MultiBinding>
+                </Button.IsEnabled>
+            </Button>
+
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    Command="{Binding DeleteCommand}"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

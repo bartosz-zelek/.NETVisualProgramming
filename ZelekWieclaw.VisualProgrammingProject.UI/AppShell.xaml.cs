@@ -11,6 +11,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.UI
             Routing.RegisterRoute("AllBeerProducersPage", typeof(AllBeerProducersPage));
             Routing.RegisterRoute("BeerProducerPage", typeof(BeerProducerPage));
             Routing.RegisterRoute("BeerProductsPage", typeof(BeerProductsPage));
+            Routing.RegisterRoute("BeerProductPage", typeof(BeerProductPage));
         }
     }
 }
