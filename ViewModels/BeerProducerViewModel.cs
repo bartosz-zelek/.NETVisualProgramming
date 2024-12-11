@@ -3,7 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
-using ZelekWieclaw.VisualProgrammingProject.DAOMock;
+using ZelekWieclaw.VisualProgrammingProject.DAO;
 using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels

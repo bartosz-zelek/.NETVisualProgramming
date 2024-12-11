@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
-using ZelekWieclaw.VisualProgrammingProject.DAOMock;
+using ZelekWieclaw.VisualProgrammingProject.DAO;
 using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
@@ -41,7 +41,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task NewAsync()
         {
-            await Shell.Current.GoToAsync("BeerProductPage");
+            await Shell.Current.GoToAsync($"BeerProductPage?producerId={_producer.Id}");
         }
 
         private async Task PerformSearchTask(string query)

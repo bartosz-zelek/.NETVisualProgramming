@@ -4,7 +4,7 @@ using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
 using ZelekWieclaw.VisualProgrammingProject.Core;
-using ZelekWieclaw.VisualProgrammingProject.DAOMock;
+using ZelekWieclaw.VisualProgrammingProject.DAO;
 using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
@@ -67,6 +67,12 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             {
                 _product = _catalogService.GetBeerProductById(id);
                 RefreshProperties();
+            }
+
+            if (query.TryGetValue("producerId", out var producerId) &&
+                int.TryParse(producerId.ToString(), out int producerIdInt))
+            {
+                _product.ProducerId = producerIdInt;
             }
         }
 

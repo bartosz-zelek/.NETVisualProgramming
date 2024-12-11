@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Text.Json;
 using System.Windows.Input;
 using ZelekWieclaw.VisualProgrammingProject.BL;
-using ZelekWieclaw.VisualProgrammingProject.DAOMock;
+using ZelekWieclaw.VisualProgrammingProject.DAO;
 
 
 namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
@@ -70,6 +70,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                     _catalogService.AddBeerProducer(producer_state);
                     AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
                 }
+
+                query.Remove("saved");
             }
             else if (query.TryGetValue("deleted", out var deletedId))
             {
@@ -79,6 +81,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                     _catalogService.DeleteBeerProducer(producer.Id);
                     AllProducers.Remove(producer);
                 }
+
+                query.Remove("deleted");
             }
         }
     }

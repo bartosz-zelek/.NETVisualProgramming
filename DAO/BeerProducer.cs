@@ -1,6 +1,6 @@
 ﻿using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
-namespace ZelekWieclaw.VisualProgrammingProject.DAOMock
+namespace ZelekWieclaw.VisualProgrammingProject.DAO
 {
     public class BeerProducer : IBeerProducer
     {

@@ -1,6 +1,4 @@
-﻿using ZelekWieclaw.VisualProgrammingProject.Core;
-
-namespace ZelekWieclaw.VisualProgrammingProject.Interfaces
+﻿namespace ZelekWieclaw.VisualProgrammingProject.Interfaces
 {
     public interface IDataAccessObject
     {
@@ -21,9 +19,6 @@ namespace ZelekWieclaw.VisualProgrammingProject.Interfaces
         public void DeleteBeerProduct(int productId);
 
         // 4.1.5 Searching/filtering data
-        public IEnumerable<IBeerProducer> SearchBeerProducers(string searchTerm);
-        public IEnumerable<IBeerProduct> SearchBeerProducts(string searchTerm);
-        public IEnumerable<IBeerProduct> FilterBeerProductsByType(BeerType type);
         public IBeerProducer GetBeerProducerById(int id);
     }
 }
