@@ -51,7 +51,7 @@ else
     public int producerID { get; set; }
 
     private CatalogService cs = new CatalogService();
-    private IBeerProducer producer;
+    private IBeerProducer? producer;
 
     [SupplyParameterFromForm]
     private BeerProducerForm? Model { get; set; }
@@ -60,7 +60,7 @@ else
     protected override void OnInitialized()
     {
         producer = cs.GetProducerById(producerID);
-        if (Model == null)
+        if (producer != null && Model == null)
         {
             Model = new BeerProducerForm
                 {

@@ -1,0 +1,90 @@
+﻿@page "/addproducer"
+@using System.ComponentModel.DataAnnotations
+@using ZelekWieclaw.VisualProgrammingProject.BL
+@using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@inject ILogger<AddProducer> Logger
+@inject NavigationManager NavigationManager
+
+<h3>Add Producer</h3>
+
+@if (showSuccessMessage)
+{
+    <div class="alert alert-success" role="alert">
+        Producer added successfully.
+    </div>
+}
+
+<EditForm Model="@Model" OnValidSubmit="Submit" FormName="AddProducer">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <InputText id="name" class="form-control" @bind-Value="Model.Name" />
+        <ValidationMessage For="@(() => Model.Name)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <InputText id="country" class="form-control" @bind-Value="Model.Country" />
+        <ValidationMessage For="@(() => Model.Country)" />
+    </div>
+
+    <div class="mb-3">
+        <label for="foundationYear" class="form-label">Foundation Year</label>
+        <InputText id="foundationYear" class="form-control" @bind-Value="Model.FoundationYear" />
+        <ValidationMessage For="@(() => Model.FoundationYear)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</EditForm>
+
+@code {
+    private CatalogService cs = new CatalogService();
+
+    [SupplyParameterFromForm]
+    private BeerProducerForm Model { get; set; } = new BeerProducerForm();
+    private bool showSuccessMessage = false; // Flag to control notification display
+
+    private async void Submit()
+    {
+        var newProducer = new BeerProducerModel
+            {
+                Name = Model.Name,
+                Country = Model.Country,
+                FoundationYear = Model.FoundationYear
+            };
+        cs.AddBeerProducer(newProducer);
+        showSuccessMessage = true; // Show notification after successful addition
+
+        // Clear the form after submission
+        Model = new BeerProducerForm();
+
+        // Hide the notification after 3 seconds
+        await Task.Delay(3000);
+        showSuccessMessage = false;
+        StateHasChanged();
+    }
+
+    public class BeerProducerForm
+    {
+        [Required(ErrorMessage = "Name is required.")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Foundation Year is required.")]
+        [RegularExpression(@"^\d{4}$", ErrorMessage = "Enter a valid year (e.g., 2023).")]
+        public string FoundationYear { get; set; }
+
+        [Required(ErrorMessage = "Country is required.")]
+        public string Country { get; set; }
+    }
+
+    // Assuming a concrete implementation of IBeerProducer
+    public class BeerProducerModel : IBeerProducer
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string FoundationYear { get; set; }
+        public string Country { get; set; }
+    }
+}
