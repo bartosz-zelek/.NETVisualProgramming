@@ -13,9 +13,9 @@
 else
 {
     <!-- Search Form -->
-    <EditForm Model="@searchModel" OnValidSubmit="HandleSearch" FormName="Search">
+    <EditForm Model="@Model" OnValidSubmit="HandleSearch" FormName="Search">
         <div class="input-group mb-3">
-            <InputText id="searchTerm" class="form-control" @bind-Value="searchModel.SearchTerm" placeholder="Search Producers" />
+            <InputText id="searchTerm" class="form-control" @bind-Value="Model.SearchTerm" placeholder="Search Producers" />
             <button type="submit" class="btn btn-primary">Search</button>
         </div>
     </EditForm>
@@ -41,24 +41,27 @@ else
 }
 
 @code {
-    private IEnumerable<IBeerProducer> beerProducers;
-    private IEnumerable<IBeerProducer> filteredProducers;
+    private IEnumerable<IBeerProducer>? beerProducers;
+    private IEnumerable<IBeerProducer>? filteredProducers;
     private CatalogService cs = new CatalogService();
 
-    private SearchModel searchModel = new();
+    [SupplyParameterFromForm]
+    private SearchModel? Model { get; set; }
 
     protected override void OnInitialized()
     {
-        beerProducers = cs.GetAllBeerProducers();
-        filteredProducers = beerProducers;
+        beerProducers ??= cs.GetAllBeerProducers();
+        filteredProducers ??= beerProducers;
+        Model ??= new SearchModel();
     }
 
     private void HandleSearch()
     {
-        if (!string.IsNullOrWhiteSpace(searchModel.SearchTerm))
+        Logger.LogInformation("!!!: " + Model.SearchTerm);
+        if (!string.IsNullOrWhiteSpace(Model.SearchTerm))
         {
             filteredProducers = beerProducers
-                .Where(p => p.Name.Contains(searchModel.SearchTerm, StringComparison.OrdinalIgnoreCase));
+                .Where(p => p.Name.Contains(Model.SearchTerm, StringComparison.OrdinalIgnoreCase));
         }
         else
         {
@@ -68,6 +71,6 @@ else
 
     public class SearchModel
     {
-        public string SearchTerm { get; set; } = string.Empty;
+        public string SearchTerm { get; set; }
     }
 }
