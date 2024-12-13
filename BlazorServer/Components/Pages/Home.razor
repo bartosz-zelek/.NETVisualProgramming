@@ -2,6 +2,7 @@
 
 @using ZelekWieclaw.VisualProgrammingProject.BL
 @using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@inject ILogger<IBeerProducer> Logger
 
 <h1>Beer Producers</h1>
 
@@ -9,31 +10,64 @@
 {
     <p>Loading...</p>
 }
-else if (!beerProducers.Any())
-{
-    <p>No beer producers found.</p>
-}
 else
 {
-    <ul class="list-group">
-        @foreach (var producer in beerProducers)
-        {
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                <span>
-                    @producer.Name (@producer.Country) - Founded in @producer.FoundationYear
-                </span>
-                <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
-            </li>
-        }
-    </ul>
+    <!-- Search Form -->
+    <EditForm Model="@searchModel" OnValidSubmit="HandleSearch" FormName="Search">
+        <div class="input-group mb-3">
+            <InputText id="searchTerm" class="form-control" @bind-Value="searchModel.SearchTerm" placeholder="Search Producers" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </EditForm>
+
+    @if (!filteredProducers.Any())
+    {
+        <p>No beer producers found.</p>
+    }
+    else
+    {
+        <ul class="list-group">
+            @foreach (var producer in filteredProducers)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>
+                        @producer.Name (@producer.Country) - Founded in @producer.FoundationYear
+                    </span>
+                    <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
+                </li>
+            }
+        </ul>
+    }
 }
 
 @code {
     private IEnumerable<IBeerProducer> beerProducers;
+    private IEnumerable<IBeerProducer> filteredProducers;
     private CatalogService cs = new CatalogService();
+
+    private SearchModel searchModel = new();
 
     protected override void OnInitialized()
     {
         beerProducers = cs.GetAllBeerProducers();
+        filteredProducers = beerProducers;
+    }
+
+    private void HandleSearch()
+    {
+        if (!string.IsNullOrWhiteSpace(searchModel.SearchTerm))
+        {
+            filteredProducers = beerProducers
+                .Where(p => p.Name.Contains(searchModel.SearchTerm, StringComparison.OrdinalIgnoreCase));
+        }
+        else
+        {
+            filteredProducers = beerProducers;
+        }
+    }
+
+    public class SearchModel
+    {
+        public string SearchTerm { get; set; } = string.Empty;
     }
 }
