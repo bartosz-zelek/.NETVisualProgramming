@@ -2,6 +2,7 @@
 
 @using ZelekWieclaw.VisualProgrammingProject.BL
 @using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@rendermode InteractiveServer
 @inject ILogger<IBeerProducer> Logger
 
 <h1>Beer Producers</h1>
@@ -33,7 +34,10 @@ else
                     <span>
                         @producer.Name (@producer.Country) - Founded in @producer.FoundationYear
                     </span>
-                    <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
+                    <span>
+                        <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteProducer(producer.Id)">Delete</button>
+                    </span>
                 </li>
             }
         </ul>
@@ -57,7 +61,6 @@ else
 
     private void HandleSearch()
     {
-        Logger.LogInformation("!!!: " + Model.SearchTerm);
         if (!string.IsNullOrWhiteSpace(Model.SearchTerm))
         {
             filteredProducers = beerProducers
@@ -67,6 +70,14 @@ else
         {
             filteredProducers = beerProducers;
         }
+    }
+
+    private async Task DeleteProducer(int producerId)
+    {
+        Logger.LogInformation($"Deleting producer with ID: {producerId}");
+        cs.DeleteBeerProducer(producerId);
+        beerProducers = cs.GetAllBeerProducers();
+        filteredProducers = beerProducers;
     }
 
     public class SearchModel
