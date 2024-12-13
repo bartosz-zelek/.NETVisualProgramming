@@ -349,12 +349,12 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Interfaces.dll
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ViewModels.dll
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Views.dll
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ViewModels.pdb
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Views.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\BL.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Core.pdb
-C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\DAO.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Interfaces.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ViewModels.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Views.pdb
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\DAO.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs

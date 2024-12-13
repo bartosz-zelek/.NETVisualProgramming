@@ -1,0 +1,39 @@
+﻿@page "/"
+
+@using ZelekWieclaw.VisualProgrammingProject.BL
+@using ZelekWieclaw.VisualProgrammingProject.Interfaces
+
+<h1>Beer Producers</h1>
+
+@if (beerProducers == null)
+{
+    <p>Loading...</p>
+}
+else if (!beerProducers.Any())
+{
+    <p>No beer producers found.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (var producer in beerProducers)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>
+                    @producer.Name (@producer.Country) - Founded in @producer.FoundationYear
+                </span>
+                <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private IEnumerable<IBeerProducer> beerProducers;
+    private CatalogService cs = new CatalogService();
+
+    protected override void OnInitialized()
+    {
+        beerProducers = cs.GetAllBeerProducers();
+    }
+}

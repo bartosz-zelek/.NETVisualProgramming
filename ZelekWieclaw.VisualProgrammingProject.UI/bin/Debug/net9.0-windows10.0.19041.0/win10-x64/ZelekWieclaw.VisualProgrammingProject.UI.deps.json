@@ -9,7 +9,10 @@
     ".NETCoreApp,Version=v9.0/win10-x64": {
       "ZelekWieclaw.VisualProgrammingProject.UI/1.0": {
         "dependencies": {
+          "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
+          "Core": "1.0.0",
+          "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
           "Microsoft.Extensions.Logging.Debug": "9.0.0",

@@ -1,0 +1,68 @@
+﻿@page "/editproducer/{producerID:int}"
+
+@using ZelekWieclaw.VisualProgrammingProject.BL
+@using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@inject NavigationManager NavigationManager
+
+<h3>Edit Producer</h3>
+
+@if (producer == null)
+{
+    <p>Loading producer data...</p>
+}
+else
+{
+    <EditForm Model="@producer" OnValidSubmit="HandleSubmit" FormName="editproducer">
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <InputText id="name" class="form-control" @bind-Value="producer.Name" />
+        </div>
+
+        <div class="mb-3">
+            <label for="country" class="form-label">Country</label>
+            <InputText id="country" class="form-control" @bind-Value="producer.Country" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int producerID { get; set; }
+
+    private CatalogService cs = new CatalogService();
+
+    private BeerProducerModel producer { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var producerData = cs.GetProducerById(producerID);
+        if (producerData != null)
+        {
+            producer = new BeerProducerModel
+            {
+                Id = producerData.Id,
+                Name = producerData.Name,
+                FoundationYear = producerData.FoundationYear,
+                Country = producerData.Country
+            };
+        }
+    }
+
+    private void HandleSubmit()
+    {
+        Console.WriteLine(producer.Name);
+        cs.UpdateBeerProducer(producer);
+        // NavigationManager.NavigateTo("/producers"); // Navigate after saving
+    }
+
+    public class BeerProducerModel : IBeerProducer
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string FoundationYear { get; set; }
+        public string Country { get; set; }
+    }
+}

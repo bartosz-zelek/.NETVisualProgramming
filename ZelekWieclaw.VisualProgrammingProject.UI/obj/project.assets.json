@@ -53365,7 +53365,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-android35.0": [
+      "BL >= 1.0.0",
       "CommunityToolkit.Maui >= 9.1.1",
+      "Core >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
@@ -53375,7 +53378,10 @@
       "Views >= 1.0.0"
     ],
     "net9.0-ios18.1": [
+      "BL >= 1.0.0",
       "CommunityToolkit.Maui >= 9.1.1",
+      "Core >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
@@ -53385,7 +53391,10 @@
       "Views >= 1.0.0"
     ],
     "net9.0-maccatalyst18.1": [
+      "BL >= 1.0.0",
       "CommunityToolkit.Maui >= 9.1.1",
+      "Core >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
@@ -53395,7 +53404,10 @@
       "Views >= 1.0.0"
     ],
     "net9.0-windows10.0.19041": [
+      "BL >= 1.0.0",
       "CommunityToolkit.Maui >= 9.1.1",
+      "Core >= 1.0.0",
+      "Interfaces >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
@@ -53441,6 +53453,15 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "projectReferences": {
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            },
             "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
               "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
             },
@@ -53452,6 +53473,15 @@
         "net9.0-ios18.1": {
           "targetAlias": "net9.0-ios",
           "projectReferences": {
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            },
             "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
               "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
             },
@@ -53463,6 +53493,15 @@
         "net9.0-maccatalyst18.1": {
           "targetAlias": "net9.0-maccatalyst",
           "projectReferences": {
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            },
             "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
               "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
             },
@@ -53474,6 +53513,15 @@
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "projectReferences": {
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            },
+            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            },
             "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
               "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
             },
