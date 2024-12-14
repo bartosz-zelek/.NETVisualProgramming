@@ -1,0 +1,123 @@
+﻿@page "/editbeer/{beerId:int}"
+@using ZelekWieclaw.VisualProgrammingProject.BL
+@using ZelekWieclaw.VisualProgrammingProject.Core
+@using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@rendermode InteractiveServer
+@inject ILogger<EditBeer> Logger
+@inject NavigationManager Navigation
+@using System.ComponentModel.DataAnnotations
+
+<h3>Edit Beer</h3>
+
+@if (beer == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    @if (showSuccessMessage)
+    {
+        <div class="alert alert-success" role="alert">
+            Beer updated successfully!
+        </div>
+    }
+
+    <EditForm Model="@beer" OnValidSubmit="HandleValidSubmit" FormName="EditBeer">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <InputText id="name" class="form-control" @bind-Value="beer.Name" />
+            <ValidationMessage For="@(() => beer.Name)" />
+        </div>
+        <div class="mb-3">
+            <label for="type" class="form-label">Type</label>
+            <InputSelect id="type" class="form-control" @bind-Value="beer.Type">
+                @foreach (var type in Enum.GetValues(typeof(BeerType)).Cast<BeerType>())
+                {
+                    <option value="@type">@type</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="@(() => beer.Type)" />
+        </div>
+        <div class="mb-3">
+            <label for="abv" class="form-label">ABV</label>
+            <InputNumber id="abv" class="form-control" @bind-Value="beer.Abv" />
+            <ValidationMessage For="@(() => beer.Abv)" />
+        </div>
+        <div class="mb-3">
+            <label for="ibu" class="form-label">IBU</label>
+            <InputNumber id="ibu" class="form-control" @bind-Value="beer.Ibu" />
+            <ValidationMessage For="@(() => beer.Ibu)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="GoBack">Back</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int BeerId { get; set; }
+
+    [SupplyParameterFromForm]
+    private BeerProductForm? beer { get; set; }
+
+    private IBeerProduct tmpbeer;
+    private CatalogService cs = new CatalogService();
+    private bool showSuccessMessage = false;
+
+    protected override void OnParametersSet()
+    {
+        LoadBeer();
+    }
+
+    private void LoadBeer()
+    {
+        Logger.LogInformation($"Loading beer with ID: {BeerId}");
+        tmpbeer = cs.GetBeerProductById(BeerId);
+        beer ??= new BeerProductForm
+            {
+                Abv = tmpbeer.Abv,
+                Ibu = tmpbeer.Ibu,
+                Name = tmpbeer.Name,
+                Type = tmpbeer.Type
+            };
+    }
+
+    private void HandleValidSubmit()
+    {
+        Logger.LogInformation($"Updating beer with ID: {BeerId}");
+        tmpbeer.Name = beer.Name;
+        tmpbeer.Type = beer.Type;
+        tmpbeer.Abv = beer.Abv;
+        tmpbeer.Ibu = beer.Ibu;
+
+        cs.UpdateBeerProduct(tmpbeer);
+        showSuccessMessage = true;
+    }
+
+    private void GoBack()
+    {
+        Logger.LogInformation("Navigating back to the list of products.");
+        Navigation.NavigateTo($"/producerbeers/{tmpbeer.ProducerId}");
+    }
+
+    public class BeerProductForm
+    {
+        [Required(ErrorMessage = "Name is required")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Type is required")]
+        public BeerType Type { get; set; }
+
+        [Required(ErrorMessage = "ABV is required")]
+        [Range(0, 100, ErrorMessage = "ABV must be between 0 and 100")]
+        public float Abv { get; set; }
+
+        [Required(ErrorMessage = "IBU is required")]
+        [Range(0, 120, ErrorMessage = "IBU must be between 0 and 120")]
+        public int Ibu { get; set; }
+    }
+}

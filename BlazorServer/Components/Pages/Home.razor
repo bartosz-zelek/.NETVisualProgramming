@@ -13,13 +13,9 @@
 }
 else
 {
-    <!-- Search Form -->
-    <EditForm Model="@Model" OnValidSubmit="HandleSearch" FormName="Search">
-        <div class="input-group mb-3">
-            <InputText id="searchTerm" class="form-control" @bind-Value="Model.SearchTerm" placeholder="Search Producers" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-    </EditForm>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search Producers" @bind="searchTerm" @oninput="SearchProducers" />
+    </div>
 
     @if (!filteredProducers.Any())
     {
@@ -31,10 +27,11 @@ else
             @foreach (var producer in filteredProducers)
             {
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <span>
+                    <a href="@($"/producerbeers/{producer.Id}")">
                         @producer.Name (@producer.Country) - Founded in @producer.FoundationYear
-                    </span>
+                    </a>
                     <span>
+                        <a href="@($"/addproduct/{producer.Id}")" class="btn btn-sm btn-success">Add beer</a>
                         <a href="@($"/editproducer/{producer.Id}")" class="btn btn-sm btn-primary">Edit</a>
                         <button class="btn btn-sm btn-danger" @onclick="() => DeleteProducer(producer.Id)">Delete</button>
                     </span>
@@ -48,27 +45,25 @@ else
     private IEnumerable<IBeerProducer>? beerProducers;
     private IEnumerable<IBeerProducer>? filteredProducers;
     private CatalogService cs = new CatalogService();
-
-    [SupplyParameterFromForm]
-    private SearchModel? Model { get; set; }
+    private string searchTerm = string.Empty;
 
     protected override void OnInitialized()
     {
         beerProducers ??= cs.GetAllBeerProducers();
         filteredProducers ??= beerProducers;
-        Model ??= new SearchModel();
     }
 
-    private void HandleSearch()
+    private void SearchProducers(ChangeEventArgs e)
     {
-        if (!string.IsNullOrWhiteSpace(Model.SearchTerm))
+        searchTerm = e.Value.ToString();
+        if (string.IsNullOrWhiteSpace(searchTerm))
         {
-            filteredProducers = beerProducers
-                .Where(p => p.Name.Contains(Model.SearchTerm, StringComparison.OrdinalIgnoreCase));
+            filteredProducers = beerProducers;
         }
         else
         {
-            filteredProducers = beerProducers;
+            filteredProducers = beerProducers
+                .Where(p => p.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
         }
     }
 
@@ -78,10 +73,5 @@ else
         cs.DeleteBeerProducer(producerId);
         beerProducers = cs.GetAllBeerProducers();
         filteredProducers = beerProducers;
-    }
-
-    public class SearchModel
-    {
-        public string SearchTerm { get; set; }
     }
 }

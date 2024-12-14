@@ -26,8 +26,19 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\mauiimage.inputs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\mauifont.inputs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\mauisplash.inputs
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-hdpi\splash.png
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-mdpi\splash.png
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-xhdpi\splash.png
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-xxhdpi\splash.png
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable-xxxhdpi\splash.png
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\drawable\maui_splash_image.xml
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\sp\values\maui_colors.xml
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\mauisplash.stamp
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\mauifont.stamp
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\f\FluentUI.cs
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -62,6 +73,7 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\case_map.txt
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\__Microsoft.Android.Resource.Designer.cs
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\res.flag
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\6CD7C47F03026257-files.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\resizetizer\B81013EDA07D2EB8-files.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\lp\101\jl\files.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\lp\102\jl\files.cache
@@ -1372,6 +1384,9 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\assets\AboutAssets.txt
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\assets\FluentUI.cs
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\assets\OpenSans-Regular.ttf
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\assets\OpenSans-Semibold.ttf
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\android\bin\packaged_resources
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\android\src\com\companyname\zelekwieclaw\visualprogrammingproject\ui\R.java
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-android\_CompileJava.FileList.txt

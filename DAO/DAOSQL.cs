@@ -30,13 +30,32 @@ namespace ZelekWieclaw.VisualProgrammingProject.DAO
         // 4.1.2 Adding Products/Producers
         public void AddBeerProducer(IBeerProducer producer)
         {
-            BeerProducers.Add((BeerProducer)producer);
+            var beerProducer = new BeerProducer
+            {
+                Id = producer.Id,
+                Name = producer.Name,
+                FoundationYear = producer.FoundationYear,
+                Country = producer.Country
+            };
+
+            BeerProducers.Add(beerProducer);
             SaveChanges();
         }
 
+
         public void AddBeerProduct(IBeerProduct product)
         {
-            BeerProducts.Add((BeerProduct)product);
+            var beerProduct = new BeerProduct
+            {
+                Id = product.Id,
+                ProducerId = product.ProducerId,
+                Name = product.Name,
+                Type = product.Type,
+                Abv = product.Abv,
+                Ibu = product.Ibu
+            };
+
+            BeerProducts.Add(beerProduct);
             SaveChanges();
         }
 

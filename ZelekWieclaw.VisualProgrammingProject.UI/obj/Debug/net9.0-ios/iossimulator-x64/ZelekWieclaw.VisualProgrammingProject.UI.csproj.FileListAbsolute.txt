@@ -416,3 +416,4 @@ C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.Visu
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-ios\iossimulator-x64\ZelekWieclaw.VisualProgrammingProject.UI.pdb
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-ios\iossimulator-x64\ZelekWieclaw.VisualProgrammingProject.UI.genruntimeconfig.cache
 C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-ios\iossimulator-x64\ref\ZelekWieclaw.VisualProgrammingProject.UI.dll
+C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature

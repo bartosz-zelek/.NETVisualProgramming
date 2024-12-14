@@ -71,8 +71,21 @@ namespace ZelekWieclaw.VisualProgrammingProject.BL
 
         private IDataAccessObject LoadDao()
         {
-            var jsonFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "BL", "jsconfig1.json");
-            var json = File.ReadAllText(jsonFilePath);
+            string jsonFilePath = string.Empty;
+            string json = string.Empty;
+            try
+            {
+                jsonFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "BL",
+                    "jsconfig1.json");
+                json = File.ReadAllText(jsonFilePath);
+            }
+            catch (Exception)
+            {
+                jsonFilePath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "BL",
+                    "jsconfig1.json");
+                json = File.ReadAllText(jsonFilePath);
+            }
+
             var jsonNode = JsonNode.Parse(json);
             var configuration = jsonNode?["DAOpath"];
             if (configuration == null)

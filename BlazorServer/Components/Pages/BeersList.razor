@@ -1,5 +1,79 @@
-﻿<h3>BeersList</h3>
+﻿@page "/producerbeers/{producerID:int}"
+@using ZelekWieclaw.VisualProgrammingProject.BL
+@using ZelekWieclaw.VisualProgrammingProject.Interfaces
+@rendermode InteractiveServer
+@inject ILogger<BeersList> Logger
+
+<h3>Beers List</h3>
+<div class="mb-3">
+    <input type="text" class="form-control" placeholder="Search products" @bind="searchTerm" @oninput="SearchProducts" />
+</div>
+@if (beerProducts == null)
+{
+    <p>Loading...</p>
+}
+else if (!filteredProducts.Any())
+{
+    <p>No beers found for this producer.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (var beer in filteredProducts)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>
+                    <strong>@beer.Name</strong> - @beer.Type, @beer.Abv% ABV, @beer.Ibu IBU
+                </span>
+                <span>
+                    <a href="@($"/editbeer/{beer.Id}")" class="btn btn-sm btn-primary">Edit</a>
+                    <button class="btn btn-sm btn-danger" @onclick="() => DeleteBeer(beer.Id)">Delete</button>
+                </span>
+            </li>
+        }
+    </ul>
+}
 
 @code {
+    [Parameter]
+    public int ProducerID { get; set; }
 
+    private IEnumerable<IBeerProduct>? beerProducts;
+    private IEnumerable<IBeerProduct>? filteredProducts;
+    private CatalogService cs = new CatalogService();
+    private string searchTerm = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        LoadBeerProducts();
+    }
+
+    private void LoadBeerProducts()
+    {
+        Logger.LogInformation($"Loading beers for producer ID: {ProducerID}");
+        beerProducts = cs.GetBeerProducts(cs.GetProducerById(ProducerID));
+        filteredProducts = beerProducts;
+    }
+
+    private async Task DeleteBeer(int beerId)
+    {
+        Logger.LogInformation($"Deleting beer with ID: {beerId}");
+        cs.DeleteBeerProduct(beerId);
+        LoadBeerProducts();
+    }
+
+    private void SearchProducts(ChangeEventArgs e)
+    {
+        Logger.LogInformation("!!!");
+        searchTerm = e.Value.ToString();
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredProducts = beerProducts;
+        }
+        else
+        {
+            filteredProducts = beerProducts
+                .Where(p => p.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
+        }
+    }
 }
