@@ -68,8 +68,14 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 else
                 {
                     _catalogService.AddBeerProducer(producer_state);
-                    AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
+                    // AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
+                    AllProducers.Clear();
+                    foreach (var p in _catalogService.GetAllBeerProducers())
+                    {
+                        AllProducers.Add(new BeerProducerViewModel(p));
+                    }
                 }
+
 
                 query.Remove("saved");
             }

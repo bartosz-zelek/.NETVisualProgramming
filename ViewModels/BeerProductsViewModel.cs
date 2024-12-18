@@ -80,7 +80,12 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 else
                 {
                     _catalogService.AddBeerProduct(product_state);
-                    BeerProducts.Insert(0, new BeerProductViewModel(product_state));
+                    // BeerProducts.Insert(0, new BeerProductViewModel(product_state));
+                    BeerProducts.Clear();
+                    foreach (var p in _catalogService.GetBeerProducts(_producer))
+                    {
+                        BeerProducts.Add(new BeerProductViewModel(p));
+                    }
                 }
             }
             else if (query.TryGetValue("deleted", out var deletedId))
