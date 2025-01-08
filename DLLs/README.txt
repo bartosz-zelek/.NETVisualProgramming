@@ -1,0 +1,1 @@
+1. Bazę danych umieścić w ...\AppData\Local
