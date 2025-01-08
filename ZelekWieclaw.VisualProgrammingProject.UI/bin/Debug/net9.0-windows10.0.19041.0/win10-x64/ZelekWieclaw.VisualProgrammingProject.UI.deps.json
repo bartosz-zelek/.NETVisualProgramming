@@ -1096,7 +1096,7 @@
           }
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "dependencies": {
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
@@ -1106,7 +1106,7 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "runtime": {
-          "DAO.dll": {
+          "DAOMock.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1132,7 +1132,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -1666,7 +1666,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DAO/1.0.0": {
+    "DAOMock/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

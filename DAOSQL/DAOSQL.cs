@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ZelekWieclaw.VisualProgrammingProject.Interfaces;
 
-namespace ZelekWieclaw.VisualProgrammingProject.DAO
+namespace ZelekWieclaw.VisualProgrammingProject.DAOSQL
 {
     public class DAOSQL : DbContext, IDataAccessObject
     {

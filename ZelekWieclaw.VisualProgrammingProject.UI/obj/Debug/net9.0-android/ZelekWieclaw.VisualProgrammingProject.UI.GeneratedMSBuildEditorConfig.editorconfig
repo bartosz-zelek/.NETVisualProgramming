@@ -21,31 +21,31 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
 build_property.RootNamespace = ZelekWieclaw.VisualProgrammingProject.UI
-build_property.ProjectDir = C:\Users\pc\Documents\ZelekWieclaw.VisualProgrammingProject.UI\ZelekWieclaw.VisualProgrammingProject.UI\
+build_property.ProjectDir = C:\Users\barto\Source\Repos\.NETVisualProgramming\ZelekWieclaw.VisualProgrammingProject.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/pc/Documents/ZelekWieclaw.VisualProgrammingProject.UI/ZelekWieclaw.VisualProgrammingProject.UI/App.xaml]
+[C:/Users/barto/Source/Repos/.NETVisualProgramming/ZelekWieclaw.VisualProgrammingProject.UI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ZelekWieclaw.VisualProgrammingProject.UI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/pc/Documents/ZelekWieclaw.VisualProgrammingProject.UI/ZelekWieclaw.VisualProgrammingProject.UI/AppShell.xaml]
+[C:/Users/barto/Source/Repos/.NETVisualProgramming/ZelekWieclaw.VisualProgrammingProject.UI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ZelekWieclaw.VisualProgrammingProject.UI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/pc/Documents/ZelekWieclaw.VisualProgrammingProject.UI/ZelekWieclaw.VisualProgrammingProject.UI/Resources/Styles/Colors.xaml]
+[C:/Users/barto/Source/Repos/.NETVisualProgramming/ZelekWieclaw.VisualProgrammingProject.UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ZelekWieclaw.VisualProgrammingProject.UI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/pc/Documents/ZelekWieclaw.VisualProgrammingProject.UI/ZelekWieclaw.VisualProgrammingProject.UI/Resources/Styles/Styles.xaml]
+[C:/Users/barto/Source/Repos/.NETVisualProgramming/ZelekWieclaw.VisualProgrammingProject.UI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ZelekWieclaw.VisualProgrammingProject.UI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -3346,7 +3346,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -3358,10 +3358,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -3388,7 +3388,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -6763,7 +6763,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -6775,10 +6775,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -6805,7 +6805,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -10180,7 +10180,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -10192,10 +10192,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -10222,7 +10222,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -13597,7 +13597,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -13609,10 +13609,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -13639,7 +13639,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -17014,7 +17014,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -17026,10 +17026,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -17056,7 +17056,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -20431,7 +20431,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -20443,10 +20443,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -20473,7 +20473,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -21867,7 +21867,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -21879,10 +21879,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -21909,7 +21909,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -23303,7 +23303,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -23315,10 +23315,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -23345,7 +23345,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -24739,7 +24739,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -24751,10 +24751,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -24781,7 +24781,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -26175,7 +26175,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -26187,10 +26187,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -26217,7 +26217,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -27611,7 +27611,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -27623,10 +27623,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -27653,7 +27653,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -29047,7 +29047,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -29059,10 +29059,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -29089,7 +29089,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -30557,7 +30557,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -30569,10 +30569,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -30599,7 +30599,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -31984,7 +31984,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -31996,10 +31996,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -32026,7 +32026,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -33411,7 +33411,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -33423,10 +33423,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -33453,7 +33453,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -34835,7 +34835,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -34847,10 +34847,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -34877,7 +34877,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -36262,7 +36262,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -36274,10 +36274,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -36304,7 +36304,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -37686,7 +37686,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -37698,10 +37698,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -37728,7 +37728,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -39427,7 +39427,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -39439,10 +39439,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -39469,7 +39469,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -41037,7 +41037,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -41049,10 +41049,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -41079,7 +41079,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -42647,7 +42647,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -42659,10 +42659,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -42689,7 +42689,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -44254,7 +44254,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -44266,10 +44266,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -44296,7 +44296,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -45864,7 +45864,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -45876,10 +45876,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -45906,7 +45906,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -47483,7 +47483,7 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "DAO/1.0.0": {
+      "DAOMock/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -47495,10 +47495,10 @@
           "Microsoft.Maui.Controls": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAO.dll": {}
+          "bin/placeholder/DAOMock.dll": {}
         }
       },
       "Interfaces/1.0.0": {
@@ -47525,7 +47525,7 @@
           "BL": "1.0.0",
           "CommunityToolkit.Maui": "9.1.1",
           "CommunityToolkit.Mvvm": "8.3.2",
-          "DAO": "1.0.0",
+          "DAOMock": "1.0.0",
           "Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0"
@@ -53342,10 +53342,10 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
-    "DAO/1.0.0": {
+    "DAOMock/1.0.0": {
       "type": "project",
-      "path": "../DAO/DAO.csproj",
-      "msbuildProject": "../DAO/DAO.csproj"
+      "path": "../DAO/DAOMock.csproj",
+      "msbuildProject": "../DAO/DAOMock.csproj"
     },
     "Interfaces/1.0.0": {
       "type": "project",
@@ -53417,24 +53417,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Users\\barto\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
       "projectName": "ZelekWieclaw.VisualProgrammingProject.UI",
-      "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
+      "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\barto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -53453,80 +53453,80 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-ios18.1": {
           "targetAlias": "net9.0-ios",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-maccatalyst18.1": {
           "targetAlias": "net9.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\BL\\BL.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Core\\Core.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\pc\\Documents\\ZelekWieclaw.VisualProgrammingProject.UI\\Views\\Views.csproj"
+            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         }
