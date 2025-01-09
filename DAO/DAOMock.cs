@@ -18,6 +18,10 @@ namespace ZelekWieclaw.VisualProgrammingProject.DAO
         private int _nextProducerId;
         private int _nextProductId;
 
+        public IBeerProducer CreateProducer() => new BeerProducer();
+
+        public IBeerProduct CreateProduct() => new BeerProduct();
+
 
         // 4.1.1 Retrieving data
         public IEnumerable<IBeerProducer> GetAllBeerProducers() => _beerProducers;

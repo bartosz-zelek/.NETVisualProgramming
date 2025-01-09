@@ -15,12 +15,13 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         public BeerProducerViewModel()
         {
-            _producer = new BeerProducer();
+            _catalogService = new CatalogService();
+
+            _producer = _catalogService.CreateProducer();
             _producer.Country = String.Empty;
             _producer.FoundationYear = String.Empty;
             _producer.Name = String.Empty;
 
-            _catalogService = new CatalogService();
             SaveCommand = new AsyncRelayCommand(Save);
             DeleteCommand = new AsyncRelayCommand(Delete);
             NavigateToBeersCommand = new AsyncRelayCommand(NavigateToBeers);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DZNLjN2o2xc=",
+  "dgSpecHash": "TXb2uICUBmw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+  "projectFilePath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",

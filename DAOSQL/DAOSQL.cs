@@ -27,6 +27,10 @@ namespace ZelekWieclaw.VisualProgrammingProject.DAOSQL
 
         public IEnumerable<IBeerProduct> GetAllBeerProducts() => BeerProducts.ToList();
 
+        public IBeerProducer CreateProducer() => new BeerProducer();
+
+        public IBeerProduct CreateProduct() => new BeerProduct();
+
         // 4.1.2 Adding Products/Producers
         public void AddBeerProducer(IBeerProducer producer)
         {

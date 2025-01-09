@@ -53423,11 +53423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "projectUniqueName": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
       "projectName": "ZelekWieclaw.VisualProgrammingProject.UI",
-      "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
+      "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\ZelekWieclaw.VisualProgrammingProject.UI.csproj",
       "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
+      "outputPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ZelekWieclaw.VisualProgrammingProject.UI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -53453,80 +53453,80 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "projectReferences": {
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-ios18.1": {
           "targetAlias": "net9.0-ios",
           "projectReferences": {
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-maccatalyst18.1": {
           "targetAlias": "net9.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj"
             },
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Views\\Views.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Views\\Views.csproj"
             }
           }
         }

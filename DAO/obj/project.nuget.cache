@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vL4P32RlbLA=",
+  "dgSpecHash": "fNZNX9TjRFg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\DAO\\DAOMock.csproj",
+  "projectFilePath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\DAO\\DAOMock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",

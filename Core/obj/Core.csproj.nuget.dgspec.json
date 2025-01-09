@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {}
+    "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj": {
+    "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Core\\obj\\",
+        "outputPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -4308,11 +4308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\barto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\obj\\",
+      "outputPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4334,8 +4334,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
+            "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\Interfaces\\Interfaces.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJwq0YbisMQ=",
+  "dgSpecHash": "ZPtViVJfYCA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",

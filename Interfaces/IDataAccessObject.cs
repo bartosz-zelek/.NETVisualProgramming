@@ -2,6 +2,10 @@
 {
     public interface IDataAccessObject
     {
+        public IBeerProducer CreateProducer();
+        public IBeerProduct CreateProduct();
+
+
         // 4.1.1 Retrieving data
         public IEnumerable<IBeerProducer> GetAllBeerProducers();
         public IEnumerable<IBeerProduct> GetAllBeerProducts();

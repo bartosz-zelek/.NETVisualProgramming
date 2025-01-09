@@ -20,8 +20,8 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         public BeerProductViewModel()
         {
-            _product = new BeerProduct();
             _catalogService = new CatalogService();
+            _product = _catalogService.CreateProduct();
             SaveCommand = new AsyncRelayCommand(Save);
             DeleteCommand = new AsyncRelayCommand(Delete);
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XR4Jiv1ZbXM=",
+  "dgSpecHash": "3euFupY/nek=",
   "success": true,
-  "projectFilePath": "C:\\Users\\barto\\Source\\Repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\barto\\source\\repos\\.NETVisualProgramming\\ViewModels\\ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\communitytoolkit.maui.9.1.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.1\\communitytoolkit.maui.core.9.1.1.nupkg.sha512",
