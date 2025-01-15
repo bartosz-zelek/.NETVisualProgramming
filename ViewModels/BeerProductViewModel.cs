@@ -36,9 +36,17 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
-            string productJson = JsonSerializer.Serialize(_product);
-            string encodedProduct = Uri.EscapeDataString(productJson);
-            await Shell.Current.GoToAsync($"..?saved={encodedProduct}");
+            var product = _catalogService.GetAllBeerProducts().FirstOrDefault(p => p.Id == _product.Id);
+            if (product != null)
+            {
+                _catalogService.UpdateBeerProduct(_product);
+            }
+            else
+            {
+                _catalogService.AddBeerProduct(_product);
+            }
+
+            await Shell.Current.GoToAsync($"..?saved={_product.Id}");
         }
 
         private async Task Delete()

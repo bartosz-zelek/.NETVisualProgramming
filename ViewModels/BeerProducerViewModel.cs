@@ -21,6 +21,7 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             _producer.Country = String.Empty;
             _producer.FoundationYear = String.Empty;
             _producer.Name = String.Empty;
+            _producer.Id = 0;
 
             SaveCommand = new AsyncRelayCommand(Save);
             DeleteCommand = new AsyncRelayCommand(Delete);
@@ -42,9 +43,15 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         private async Task Save()
         {
-            string producerJson = JsonSerializer.Serialize(_producer);
-            string encodedProducer = Uri.EscapeDataString(producerJson);
-            await Shell.Current.GoToAsync($"..?saved={encodedProducer}");
+            if (_producer.Id == 0) // new producer
+            {
+                _catalogService.AddBeerProducer(_producer);
+            }
+            else // existing producer
+            {
+                _catalogService.UpdateBeerProducer(_producer);
+            }
+            await Shell.Current.GoToAsync($"..?saved={_producer.Id}");
         }
 
         private async Task Delete()

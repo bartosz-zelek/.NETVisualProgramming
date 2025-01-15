@@ -67,25 +67,12 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                     BeerProducts.Add(new BeerProductViewModel(product));
                 }
             }
-            else if (query.TryGetValue("saved", out var _product_state))
+            else if (query.TryGetValue("saved", out var _productId))
             {
-                string productJson = Uri.UnescapeDataString(_product_state.ToString());
-                var product_state = JsonSerializer.Deserialize<BeerProduct>(productJson);
-                var product = BeerProducts.FirstOrDefault(p => p.Id == product_state.Id);
-                if (product != null)
+                BeerProducts.Clear();
+                foreach (var p in _catalogService.GetBeerProducts(_producer))
                 {
-                    product.Reload();
-                    _catalogService.UpdateBeerProduct(product_state);
-                }
-                else
-                {
-                    _catalogService.AddBeerProduct(product_state);
-                    // BeerProducts.Insert(0, new BeerProductViewModel(product_state));
-                    BeerProducts.Clear();
-                    foreach (var p in _catalogService.GetBeerProducts(_producer))
-                    {
-                        BeerProducts.Add(new BeerProductViewModel(p));
-                    }
+                    BeerProducts.Add(new BeerProductViewModel(p));
                 }
             }
             else if (query.TryGetValue("deleted", out var deletedId))
@@ -93,7 +80,6 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
                 var product = BeerProducts.FirstOrDefault(p => p.Id == int.Parse((string)deletedId));
                 if (product != null)
                 {
-                    _catalogService.DeleteBeerProducer(product.Id);
                     BeerProducts.Remove(product);
                 }
             }

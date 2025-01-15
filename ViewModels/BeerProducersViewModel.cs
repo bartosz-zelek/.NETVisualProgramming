@@ -55,25 +55,12 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
 
         void IQueryAttributable.ApplyQueryAttributes(IDictionary<string, object> query)
         {
-            if (query.TryGetValue("saved", out var _producer_state))
+            if (query.TryGetValue("saved", out var producerId))
             {
-                string producerJson = Uri.UnescapeDataString(_producer_state.ToString());
-                var producer_state = JsonSerializer.Deserialize<BeerProducer>(producerJson);
-                var producer = AllProducers.FirstOrDefault(p => p.Id == producer_state.Id);
-                if (producer != null)
+                AllProducers.Clear();
+                foreach (var p in _catalogService.GetAllBeerProducers())
                 {
-                    producer.Reload();
-                    _catalogService.UpdateBeerProducer(producer_state);
-                }
-                else
-                {
-                    _catalogService.AddBeerProducer(producer_state);
-                    // AllProducers.Insert(0, new BeerProducerViewModel(producer_state));
-                    AllProducers.Clear();
-                    foreach (var p in _catalogService.GetAllBeerProducers())
-                    {
-                        AllProducers.Add(new BeerProducerViewModel(p));
-                    }
+                    AllProducers.Add(new BeerProducerViewModel(p));
                 }
 
 
@@ -81,11 +68,10 @@ namespace ZelekWieclaw.VisualProgrammingProject.ViewModels
             }
             else if (query.TryGetValue("deleted", out var deletedId))
             {
-                var producer = AllProducers.FirstOrDefault(p => p.Id == int.Parse((string)deletedId));
-                if (producer != null)
+                AllProducers.Clear();
+                foreach (var p in _catalogService.GetAllBeerProducers())
                 {
-                    _catalogService.DeleteBeerProducer(producer.Id);
-                    AllProducers.Remove(producer);
+                    AllProducers.Add(new BeerProducerViewModel(p));
                 }
 
                 query.Remove("deleted");
